@@ -10,6 +10,6 @@ on:
 
 jobs:
   docker:
-    uses: cellpointdigital/github-reusable-workflows/.github/workflows/docker-build.yml@main
+    uses: cellpointdigital/.github/.github/workflows/docker-build.yml@main
     with:
       image_name: pgbouncer
